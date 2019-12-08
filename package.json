@@ -19,6 +19,7 @@
     "@types/webdriverio": "^5.0.0",
     "@wdio/junit-reporter": "^5.16.11",
     "@wdio/mocha-framework": "^5.16.13",
-    "@wdio/selenium-standalone-service": "^5.16.10"
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/sync": "^5.16.14"
   }
 }
