@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="API_Learning" timestamp="2019-12-07T14:55:54" time="0.018" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="API Learning"/>
+      <property name="capabilities" value="chrome.78_0_3904_108.windowsnt"/>
+      <property name="file" value=".\src\setValue.js"/>
+    </properties>
+    <testcase classname="chrome.78_0_3904_108.windowsnt.API_Learning" name="Set_value_to_a_text_box" time="0.014">
+      <error message="$(...).setValue is not a function"/>
+      <system-err>
+        <![CDATA[
+TypeError: $(...).setValue is not a function
+    at Context.<anonymous> (G:\Open_page\src\setValue.js:7:29)
+    at Context.executeAsync (G:\Open_page\node_modules\@wdio\utils\build\shim.js:123:21)
+    at Context.testFrameworkFnWrapper (G:\Open_page\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:55:28)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
